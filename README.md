@@ -7,8 +7,8 @@ My solutions for the Conquering Responsive Layouts challenges by Kevin Powell. Y
 I'll be updating this README with my progress as I complete each challenge.
 
 &#x2714; Challenge 1\
-&#x2717; Challenge 2\
-&#x2717; Challenge 3\
+&#x2714; Challenge 2\
+&#x2714; Challenge 3\
 &#x2717; Flexbox Challenge 1\
 &#x2717; Flexbox Challenge 2\
 &#x2717; Flexbox Challenge 3\
