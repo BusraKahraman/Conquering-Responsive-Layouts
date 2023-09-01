@@ -11,7 +11,7 @@ I'll be updating this README with my progress as I complete each challenge.
 &#x2714; Challenge 3\
 &#x2714; Flexbox Challenge 1\
 &#x2714; Flexbox Challenge 2\
-&#x2717; Flexbox Challenge 3\
+&#x2714; Flexbox Challenge 3\
 &#x2717; Flexbox Challenge 4\
 &#x2717; Navigation Challenge\
 &#x2717; Final Challenge
