@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap');
+
+// colors
+
+$beige: #f3eed9;
+$brown: #824936;
+$dark-green: #222c2a;
+
+// typography
+
+$roboto: 'Roboto', sans-serif;
+$playfair: 'Playfair Display', serif;
+$light: 300;
+$regular: 400;
+$black: 900;
+
+// styles
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 21px;
+  font-family: $roboto;
+  font-weight: $regular;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  font-family: $playfair;
+  font-weight: $black;
+  margin-top: 0;
+  line-height: 1.1;
+}
+
+section {
+  padding: 4em 0;
+}
+
+.container {
+  width: 85%;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-color: $beige;
+  min-height: 660px;
+  display: flex;
+  align-items: center;
+}
+
+.hero__text {
+  text-align: center;
+
+  p {
+    font-weight: $light;
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    color: $brown;
+  }
+}
+
+.first-section {
+  text-align: center;
+  h2 {
+    color: $brown;
+    font-size: 36px;
+  }
+}
+
+.second-section {
+  background-color: $dark-green;
+  h2 {
+    color: $beige;
+  }
+  p {
+    color: white;
+  }
+}
+
+.third-section {
+  background-color: $brown;
+  h2 {
+    color: $beige;
+  }
+  p {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .row {
+    display: flex;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .col + .col {
+    margin-left: 5em;
+  }
+
+  .hero__text {
+    h1 {
+      font-size: 60px;
+    }
+  }
+}

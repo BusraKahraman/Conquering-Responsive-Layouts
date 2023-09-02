@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  margin-top: 0;
+  line-height: 1.1;
+}
+
+section {
+  padding: 4em 0;
+}
+
+.container {
+  width: 85%;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-color: #f3eed9;
+  min-height: 660px;
+  display: flex;
+  align-items: center;
+}
+
+.hero__text {
+  text-align: center;
+}
+.hero__text p {
+  font-weight: 300;
+  font-size: 18px;
+}
+.hero__text h1 {
+  font-size: 3rem;
+  color: #824936;
+}
+
+.first-section {
+  text-align: center;
+}
+.first-section h2 {
+  color: #824936;
+  font-size: 36px;
+}
+
+.second-section {
+  background-color: #222c2a;
+}
+.second-section h2 {
+  color: #f3eed9;
+}
+.second-section p {
+  color: white;
+}
+
+.third-section {
+  background-color: #824936;
+}
+.third-section h2 {
+  color: #f3eed9;
+}
+.third-section p {
+  color: white;
+}
+
+@media screen and (min-width: 769px) {
+  .row {
+    display: flex;
+  }
+  .col {
+    width: 100%;
+  }
+  .col + .col {
+    margin-left: 5em;
+  }
+  .hero__text h1 {
+    font-size: 60px;
+  }
+} /*# sourceMappingURL=style.css.map */
